@@ -1,0 +1,101 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  }
+body {
+  font-size: 120%;
+  background-image: url(wp.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 93vh;
+}
+
+.header {
+  padding-top: 50px;
+  width: 30%;
+  margin: 60px auto 0px;
+  background: #738580;
+  text-align: center;
+  border: 1px solid ;
+  border-bottom: none;
+  border-radius: 10px 10px 0px 0px;
+  padding: 20px;
+  box-shadow: 0 0 20px 9px ;
+  font-family: Kristen ITC;
+  
+}
+form, .content {
+  width: 30%;
+  margin: 0px auto;
+  padding: 20px;
+  border: 3px solid ;
+  background-color: hsla(0,0%,50%,0.3);
+  background: transparent;
+  border-radius: 0px 0px 10px 10px;
+  box-shadow: 0 0 20px 9px ;
+
+  font-family: zai Pencil Typewriter;
+
+
+  
+}
+p{
+  color:white;
+
+}
+.input-group {
+  margin: 10px 0px 10px 0px;
+}
+.input-group label {
+  display: block;
+  text-align: left;
+  margin: 3px;
+}
+.input-group input {
+  height: 30px;
+  width: 93%;
+  padding: 5px 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+.btn {
+  padding: 5px;
+  font-size: 20px;
+  color: white;
+  border: none;
+  border-radius: 30px;
+
+  width: 150px;
+  height: 36px;
+  font-weight: 600;
+  background: -webkit-linear-gradient( left,#040f06 ,#322f34 );
+  cursor: pointer;
+  font-family: zai Pencil Typewriter;
+}
+
+.error {
+  width: 92%; 
+  margin: 0px auto; 
+  padding: 10px; 
+  border: 1px solid #a94442; 
+  color: #FF0000; 
+  background: #000000; 
+  border-radius: 5px; 
+  text-align: left;
+}
+.success {
+  color: #738580; 
+  background: #dff0d8; 
+  border: 1px solid #738580;
+  margin-bottom: 20px;
+}
+a:hover{
+  color: red;
+}
+
+
+.btn:hover{
+  background: -webkit-linear-gradient(left, #322f34, #040f06);
+}
